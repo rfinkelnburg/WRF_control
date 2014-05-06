@@ -6,4 +6,7 @@ Scripts for controlling consecutive sequential WRF runs using intermediate forma
 Requirements
 ============
 
-Install libdate-simple-perl and libdate-calc-perl. NCL has to be installed/linked into ./NCL. WPS has to be installed/linked into ./WPS. WRF has to be installed/linked into ./WRF.
+- libdate-simple-perl and libdate-calc-perl have to be installed
+- NCL has to be installed/linked into ./NCL/ 
+- WPS has to be installed/linked into ./WPS/ 
+- WRF has to be installed/linked into ./WRF/
