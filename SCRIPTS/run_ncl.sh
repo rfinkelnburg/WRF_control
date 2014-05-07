@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # run_ncl.sh
 #
@@ -9,7 +10,6 @@
 # as input (SNOW, SNOWH, SNOWSI, SNOWC, and SNOALB of time
 # step 0 of the former run are copied into wrfinput_d01). 
 #
-#!/bin/bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 export NCARG_ROOT=$DIR/../NCL

@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # run_wrf.sh
 #
@@ -6,7 +7,6 @@
 # Copyright: Roman Finkelnburg (2014)
 # Description: This script is intended to run wrf.exe. 
 #
-#!/bin/bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 WRF_PATH=$DIR/../WRF

@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # run_real.sh
 #
@@ -6,7 +7,6 @@
 # Copyright: Roman Finkelnburg (2014)
 # Description: This script is intended to run real.exe.
 #
-#!/bin/bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 WRF_PATH_REAL=$DIR/../WRF

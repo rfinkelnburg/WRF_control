@@ -1,3 +1,4 @@
+#!/usr/bin/perl -w
 # 
 # link_input.pl
 #
@@ -7,7 +8,6 @@
 # Description: This script is links meteorological input files for 
 # WPS. If no IFF's are used files have to be ungribed befor metgrid.
 #
-#!/usr/bin/perl -w
 
 use strict;
 use Date::Simple ('date');

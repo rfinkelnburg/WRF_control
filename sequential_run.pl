@@ -1,4 +1,5 @@
-# 
+#!/usr/bin/perl -w
+#
 # sequential_run.pl
 #
 # Created on: Mar 17, 2014
@@ -13,7 +14,6 @@
 # has to be set in ./SCRIPTS/run_wps.sh and the path to the static geographical data has
 # to be set in ./TEMPLATES/namelist.wps.tpl.  
 #
-#!/usr/bin/perl -w
 
 use strict;
 use Date::Simple ('date');
@@ -37,7 +37,7 @@ my $max_time_step     = 12; #set to ne 0 (-1 or positive value) to set maximum a
 
 ### ERROR HANDLING AND DEBUGGING ###
 my $mail  = 0; #set to ne 0 to enable error mailing using ssmtp (see e.g. https://wiki.archlinux.org/index.php/SSMTP)
-my $debug = 1; #set to ne 0 to just output commands (no execution)
+my $debug = 0; #set to ne 0 to just output commands (no execution)
 
 ### PATH TO SCRIPTS AND TEMPLATE FILES (DO NOT EDIT)###
 my $TOOLPATH        = $FindBin::Bin;

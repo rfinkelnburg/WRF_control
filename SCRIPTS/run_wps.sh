@@ -1,3 +1,4 @@
+#!/bin/bash
 # 
 # run_wps.sh
 #
@@ -10,7 +11,6 @@
 # 'WRF:yyyy-mm-dd_hh'. The directory comprising the IFF's (IFF_PATH) 
 # has to be set before running!!! 
 #
-#!/bin/bash
 
 IFF_PATH=PATH_TO_IFFS #!!! PLEASE SET IFF_PATH !!!
 
