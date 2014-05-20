@@ -323,3 +323,8 @@ do {
 
 } until ($date_start_tmp ge $date_end - $spinup_days);
 
+if (($mail ne 0) and ($debug eq 0)) {
+        my $mail_str = sprintf("echo FINISHED! | mail -v -s \"FINISHED: WRF Sequential Run\" %s", $mailaddr);
+        system($mail_str);
+}
+
